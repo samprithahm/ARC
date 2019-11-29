@@ -32,7 +32,7 @@ for i in range(len(a)):
 
 print(train_sol)
 if(train_sol == b):
-    print("Training Correct!!!")
+    print("Training Data Verified!!!")
 
 #testing
 test_sol = []
@@ -45,7 +45,7 @@ for i in range(len(c)):
 
 print(test_sol)
 if(test_sol == d):
-    print("Testing Correct!!!")
+    print("Testing Data Verified!!!")
 
 input = [a, train_sol]
 def visualize(input):
