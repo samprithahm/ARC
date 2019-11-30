@@ -62,17 +62,22 @@ Open CLI inside `src` folder and execute the following commands to run the solut
 6. `python Solution_d10ecb37.py (training/evaluation)/jsonfile.json`
 
 ## Image for all 6 tasks (1 input & output each)
-Task 1:
+`Task 1:`
 ![task 1](/apps/img/preeti1.png)
-Task 2:
+
+`Task 2:`
 ![task 2](/apps/img/preeti2.png)
-Task 3:
+
+`Task 3:`
 ![task 3](/apps/img/sampritha1.png)
-Task 4:
+
+`Task 4:`
 ![task 4](/apps/img/sampritha2.png)
-Task 5:
+
+`Task 5:`
 ![task 5](/apps/img/swati1.png)
-Task 6:
+
+`Task 6:`
 ![task 6](/apps/img/swati2.png)
 
 ## Summary
