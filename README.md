@@ -42,31 +42,36 @@ The project structure is as below,
 
 ## Source Code
 The `src` directory consists of hand written python code for three of the tasks namely.
-`1.	25d8a9c8.json`
-`2.	2dee498d.json`
-`3.	d631b094.json`
-`4.	c59eb873.json` 
-`5.	3ac3eb23.json`
-`6.	d10ecb37.json`
+1. `25d8a9c8.json`
+2. `2dee498d.json`
+3. `d631b094.json`
+4. `c59eb873.json`
+5. `3ac3eb23.json`
+6. `d10ecb37.json`
  
 ## Usage of Command line Interface(CLI)
 Open CLI inside `src` folder and execute the following commands to run the solutions,
 
 ##### Excecution commands for all the tasks
 
-python Solution_25d8a9c8.py (training/evaluation)/jsonfile.json
-python Solution_2dee498d.py (training/evaluation)/jsonfile.json
-python Solution_d631b094.py (training/evaluation)/jsonfile.json
-python Solution_c59eb873.py (training/evaluation)/jsonfile.json
-python Solution_3ac3eb23.py (training/evaluation)/jsonfile.json
-python Solution_d10ecb37.py (training/evaluation)/jsonfile.json
+1. `python Solution_25d8a9c8.py (training/evaluation)/jsonfile.json`
+2. `python Solution_2dee498d.py (training/evaluation)/jsonfile.json`
+3. `python Solution_d631b094.py (training/evaluation)/jsonfile.json`
+4. `python Solution_c59eb873.py (training/evaluation)/jsonfile.json`
+5. `python Solution_3ac3eb23.py (training/evaluation)/jsonfile.json`
+6. `python Solution_d10ecb37.py (training/evaluation)/jsonfile.json`
 
 ## Image for all 6 tasks (1 input & output each)
 ![task 1](/apps/img/preeti1.png)
+
 ![task 2](/apps/img/preeti2.png)
+
 ![task 3](/apps/img/sampritha1.png)
+
 ![task 4](/apps/img/sampritha2.png)
+
 ![task 5](/apps/img/swati1.png)
+
 ![task 6](/apps/img/swati2.png)
 
 ## Summary
