@@ -12,33 +12,37 @@ Created on Tue Nov 26 21:47:02 2019
 @author: HP
 """
 
-import json
+import os
+import sys
+import Utils.common_utilities as utils
 import numpy as np
-import matplotlib.pyplot as plt
 
-def json_arc_reader(file_name):
-    json_file = open(file_name)
-    data = json.load(json_file)
-    print(data)
-    train_inputs = [data['train'][i]['input'] for i in range(len(data['train']))]
-    train_outputs = [data['train'][i]['output'] for i in range(len(data['train']))]
-    test_inputs = [data['test'][i]['input'] for i in range(len(data['test']))]
-    test_outputs = [data['test'][i]['output'] for i in range(len(data['test']))]
-    return train_inputs,train_outputs,test_inputs,test_outputs
+os.chdir("..")
+os.chdir("data")
+file = sys.argv[1]
+train_input,train_output,test_input,test_output = utils.json_reader(file)
 
-a,b,c,d = json_arc_reader('d10ecb37.json')
+def solve(inputData):
+    array = inputData
+    print(array)
+    result = []
+    for t in range(len(array)):
+        test = np.array(array[t])
+        test1 = test[0]
+        a1 = [test1[0], test1[1]]
+        a2 = [test1[2], test1[4]]
+        result.append([a1] + [a2])
+    return result
 
-test = c[0][0]
+print("\n\nTRANING")
+result = solve(train_input)
+print(" Output:\n",result)
+if(train_output == result):
+    print("Training Successful")
 
-for i in range(len(c)):
-    a1 = [test[0], test[1]]
-    a2 = [test[2], test[4]]
-    
-result = [[a1] + [a2]]
-print(result)
 
-print("D: ", d)
-print("Results: ", result)
-
-if(result == d):
-    print("Tested correctly")
+print("\n\nTESTING")
+result = solve(test_input)
+print(" Output:\n",result)
+if(test_output == result):
+    print("Testing Successful\n")
