@@ -30,6 +30,25 @@ A "grid" is a rectangular matrix (list of lists) of integers between 0 and 9 (in
 
 When looking at a task, a test-taker has access to inputs & outputs of the demonstration pairs, plus the input(s) of the test pair(s). The goal is to construct the output grid(s) corresponding to the test input grid(s), using 3 trials for each test input. "Constructing the output grid" involves picking the height and width of the output grid, then filling each cell in the grid with a symbol (integer between 0 and 9, which are visualized as colors). Only *exact* solutions (all cells match the expected answer) can be said to be correct.
 
+## Usage of Command line Interface(CLI)
+Open CLI inside src folder and execute the following commands to run the solutions,
+
+##### Excecution commands for all the tasks
+
+python Solution_25d8a9c8.py (training/evaluation)/jsonfile.json
+python Solution_2dee498d.py (training/evaluation)/jsonfile.json
+python Solution_d631b094.py (training/evaluation)/jsonfile.json
+python Solution_c59eb873.py (training/evaluation)/jsonfile.json
+python Solution_3ac3eb23.py (training/evaluation)/jsonfile.json
+python Solution_d10ecb37.py (training/evaluation)/jsonfile.json
+
+## Image for all 6 tasks (1 input & output each)
+![task 1](/apps/img/preeti1.png)
+![task 2](/apps/img/preeti2.png)
+![task 3](/apps/img/sampritha1.png)
+![task 4](/apps/img/sampritha2.png)
+![task 5](/apps/img/swati1.png)
+![task 6](/apps/img/swati2.png)
 
 ## Usage of the testing interface
 
