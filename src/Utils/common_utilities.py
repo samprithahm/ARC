@@ -1,10 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sat Nov 30 20:06:27 2019
-
-@author: HP
+@author: Sampritha H M
 """
-
 import json
 
 def json_reader(file_name):
